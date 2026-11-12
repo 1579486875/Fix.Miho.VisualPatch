@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Miho"]/alienRace/graphicPaths/body/extendedGraphics/BodyType[@For="Baby"]/path</xpath>
+		<value>
+			<path>Miho/Body/Naked_Baby</path>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Miho"]/alienRace/generalSettings/alienPartGenerator/headOffsetDirectional/east/bodyTypes</xpath>
+		<value>
+			<Baby MayRequire="Ludeon.RimWorld.Biotech">(0.07,-0.01)</Baby>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Miho"]/alienRace/generalSettings/alienPartGenerator/headOffsetDirectional/west/bodyTypes</xpath>
+		<value>
+			<Baby MayRequire="Ludeon.RimWorld.Biotech">(-0.07,-0.04)</Baby>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Miho"]/alienRace/generalSettings/alienPartGenerator/headOffsetDirectional/north/bodyTypes/Child</xpath>
+		<value>
+			<Child MayRequire="Ludeon.RimWorld.Biotech">(0,-0.02)</Child>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Miho"]/alienRace/generalSettings/alienPartGenerator/headOffsetDirectional/south/bodyTypes/Child</xpath>
+		<value>
+			<Child MayRequire="Ludeon.RimWorld.Biotech">(0,-0.042)</Child>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Miho"]/alienRace/generalSettings/alienPartGenerator/headOffsetDirectional/east/bodyTypes/Child</xpath>
+		<value>
+			<Child MayRequire="Ludeon.RimWorld.Biotech">(0.059,0.013)</Child>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Miho"]/alienRace/generalSettings/alienPartGenerator/headOffsetDirectional/west/bodyTypes/Child</xpath>
+		<value>
+			<Child MayRequire="Ludeon.RimWorld.Biotech">(-0.059,0.013)</Child>
+		</value>
+	</Operation>
+
+</Patch>

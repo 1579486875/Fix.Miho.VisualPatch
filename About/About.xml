@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Miho Race Children Texture Fix</name>
+
+	<author>Ay；GNH 本地分支维护：大赢经直插白皮赢道</author>
+
+	<packageId>Fix.Miho.VisualPatch</packageId>
+	<modVersion>1.6.0</modVersion>
+
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+
+	<description>
+修复1~11岁美狐小孩身体贴图错误，主要包含两个部分
+1.删除Race_Miho.xml第325行额外调用的一个身体
+2.调整头部与剩下一个身体对齐
+3.北方（上方）朝向脸与发型重新对其
+4.尾巴修改到正确的位置
+5.SA器官微调
+注意：本mod对4~11岁miho儿童效果最好，1~3岁头部偏低无法单独调整
+	</description>
+
+	<modDependencies>
+		<li>
+			<packageId>erdelf.HumanoidAlienRaces</packageId>
+			<displayName>Humanoid Alien Races</displayName>
+			<downloadUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</downloadUrl>
+		</li>
+		<li>
+			<packageId>miho.fortifiedoutremer</packageId>
+			<displayName>Miho, the Celestial Fox</displayName>
+			<downloadUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2816826107</downloadUrl>
+		</li>
+	</modDependencies>
+
+	<loadAfter>
+		<li>erdelf.HumanoidAlienRaces</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>miho.fortifiedoutremer</li>
+	</loadAfter>
+</ModMetaData>
