@@ -5,6 +5,11 @@
 		<value>
 			<path>Miho/Body/Naked_Baby</path>
 		</value>
+		<!-- <success>Always</success> 吞掉的失败：目标 Alien_Miho 不在场（玩家只装了本模组的一份
+		     Defs 而它加载失败），或工坊本体改了 headOffsetDirectional 的层级导致某几条 xpath 0 命中。
+		     这两种情况下「什么都不做」比刷 7 条 Patch operation failed 更合适。
+		     真正的验证判据是进游戏看 4~11 岁美狐的贴图（见 About 里那 5 项）。 -->
+		<success>Always</success>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
@@ -12,6 +17,11 @@
 		<value>
 			<Baby MayRequire="Ludeon.RimWorld.Biotech">(0.07,-0.01)</Baby>
 		</value>
+		<!-- <success>Always</success> 吞掉的失败：目标 Alien_Miho 不在场（玩家只装了本模组的一份
+		     Defs 而它加载失败），或工坊本体改了 headOffsetDirectional 的层级导致某几条 xpath 0 命中。
+		     这两种情况下「什么都不做」比刷 7 条 Patch operation failed 更合适。
+		     真正的验证判据是进游戏看 4~11 岁美狐的贴图（见 About 里那 5 项）。 -->
+		<success>Always</success>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
@@ -19,6 +29,11 @@
 		<value>
 			<Baby MayRequire="Ludeon.RimWorld.Biotech">(-0.07,-0.04)</Baby>
 		</value>
+		<!-- <success>Always</success> 吞掉的失败：目标 Alien_Miho 不在场（玩家只装了本模组的一份
+		     Defs 而它加载失败），或工坊本体改了 headOffsetDirectional 的层级导致某几条 xpath 0 命中。
+		     这两种情况下「什么都不做」比刷 7 条 Patch operation failed 更合适。
+		     真正的验证判据是进游戏看 4~11 岁美狐的贴图（见 About 里那 5 项）。 -->
+		<success>Always</success>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
@@ -26,6 +41,11 @@
 		<value>
 			<Child MayRequire="Ludeon.RimWorld.Biotech">(0,-0.02)</Child>
 		</value>
+		<!-- <success>Always</success> 吞掉的失败：目标 Alien_Miho 不在场（玩家只装了本模组的一份
+		     Defs 而它加载失败），或工坊本体改了 headOffsetDirectional 的层级导致某几条 xpath 0 命中。
+		     这两种情况下「什么都不做」比刷 7 条 Patch operation failed 更合适。
+		     真正的验证判据是进游戏看 4~11 岁美狐的贴图（见 About 里那 5 项）。 -->
+		<success>Always</success>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
@@ -33,6 +53,11 @@
 		<value>
 			<Child MayRequire="Ludeon.RimWorld.Biotech">(0,-0.042)</Child>
 		</value>
+		<!-- <success>Always</success> 吞掉的失败：目标 Alien_Miho 不在场（玩家只装了本模组的一份
+		     Defs 而它加载失败），或工坊本体改了 headOffsetDirectional 的层级导致某几条 xpath 0 命中。
+		     这两种情况下「什么都不做」比刷 7 条 Patch operation failed 更合适。
+		     真正的验证判据是进游戏看 4~11 岁美狐的贴图（见 About 里那 5 项）。 -->
+		<success>Always</success>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
@@ -40,6 +65,11 @@
 		<value>
 			<Child MayRequire="Ludeon.RimWorld.Biotech">(0.059,0.013)</Child>
 		</value>
+		<!-- <success>Always</success> 吞掉的失败：目标 Alien_Miho 不在场（玩家只装了本模组的一份
+		     Defs 而它加载失败），或工坊本体改了 headOffsetDirectional 的层级导致某几条 xpath 0 命中。
+		     这两种情况下「什么都不做」比刷 7 条 Patch operation failed 更合适。
+		     真正的验证判据是进游戏看 4~11 岁美狐的贴图（见 About 里那 5 项）。 -->
+		<success>Always</success>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
@@ -47,6 +77,11 @@
 		<value>
 			<Child MayRequire="Ludeon.RimWorld.Biotech">(-0.059,0.013)</Child>
 		</value>
+		<!-- <success>Always</success> 吞掉的失败：目标 Alien_Miho 不在场（玩家只装了本模组的一份
+		     Defs 而它加载失败），或工坊本体改了 headOffsetDirectional 的层级导致某几条 xpath 0 命中。
+		     这两种情况下「什么都不做」比刷 7 条 Patch operation failed 更合适。
+		     真正的验证判据是进游戏看 4~11 岁美狐的贴图（见 About 里那 5 项）。 -->
+		<success>Always</success>
 	</Operation>
 
 </Patch>
