@@ -5,10 +5,11 @@
 	<author>Ay；GNH 本地分支维护：大赢经直插白皮赢道</author>
 
 	<packageId>Fix.Miho.VisualPatch</packageId>
-	<modVersion>1.6.0</modVersion>
+	<modVersion>1.6.1</modVersion>
 
 	<supportedVersions>
 		<li>1.6</li>
+		<li>1.7</li>
 	</supportedVersions>
 
 	<description>
@@ -19,6 +20,13 @@
 4.尾巴修改到正确的位置
 5.SA器官微调
 注意：本mod对4~11岁miho儿童效果最好，1~3岁头部偏低无法单独调整
+	
+
+【1.7 说明】本模组的 Defs 是从工坊本体（Miho, the celestial fox / 2816826107）的 1.6 版本复制后改的，
+体积 83,271 字节 vs 本体 83,280 字节（只删了那一处多余的身体调用）。
+1.7 起也声明支持 —— RimWorld 对 1.6 目录的回退加载会让这套 Def 直接生效，
+**代价是：如果工坊本体以后更新了 1.6/Defs/Race_Miho.xml，本模组会把它盖住**。
+本体更新后请重新同步一次（把本体的新文件复制过来、重做那处改动）。
 	</description>
 
 	<modDependencies>
